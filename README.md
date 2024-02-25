@@ -1,15 +1,13 @@
 # AI-Vtuber
-Python only application which allows you to stream ai vtuber
+Python-only application which allows you to stream AI VTuber.
 
-#Important
-This repo was not created as copy and paste application, but more of a inspiration of how to approach project like this.
-It was created to fit my personal case, it's not universal.
+# Important
+This repo was not created as a copy-and-paste application, but more of an inspiration for how to approach a project like this. It was created to fit my personal case; it's not universal.
 
-#How it works
-It uses Twitch API to read massages from chat, it checks if user has previous content and then openai fine-tuned gpt-3.5 turbo model processes it.
-The response then is saved to file and then i play the response from ElevenLabs API. The audio is streamed and captured and subtitles are playing in the meantime.
-It uses VTube Studio and OBS and communicate with it.
+# How it works
+It uses the Twitch API to read messages from chat. It checks if the user has previous content and then OpenAI fine-tuned GPT-3.5 Turbo model processes it. The response is then saved to a file and played using the ElevenLabs API. The audio is streamed, captured, and subtitles are played in the meantime. It communicates with VTube Studio and OBS.
 
-#Example
-You can check how it can look in the example belowe.
+# Example
+You can see how it can look in the example below.
+
 https://clips.twitch.tv/FastPlayfulGrasshopperMrDestructoid-h4inCzz8Ig1Ac2V0
